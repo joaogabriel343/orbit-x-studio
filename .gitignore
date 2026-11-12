@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.local
+.sites-runtime/
+.supabase/
+supabase/.temp/
+supabase/functions/.env
+coverage/
+artifacts/
+.local/
+playwright-report/
+test-results/
+*.tsbuildinfo

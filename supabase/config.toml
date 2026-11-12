@@ -1,0 +1,6 @@
+project_id = "orbit-x-studio"
+[functions.x-studio]
+enabled = true
+verify_jwt = false
+entrypoint = "./functions/x-studio/index.ts"
+# A função valida getUser() e x_studio_admins explicitamente.
